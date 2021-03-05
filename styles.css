@@ -1,0 +1,60 @@
+.text-center {
+  display: flex;
+  background-color: #17181F;
+  color: aliceblue;
+  flex-direction: column;
+}
+
+#primary_nav_wrap ul {
+  display: flex;
+  list-style: none;
+  color: aliceblue;
+  justify-content: flex-end;
+
+}
+
+#primary_nav_wrap ul a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  padding: 0 15px;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.top-info-bar {
+  display: flex;
+  background-color: #383B53;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.left-side-bar {
+  display: flex;
+  background-color: #17181F;
+
+}
+
+.img-profile img {
+  display: flex;
+  object-fit: cover;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.footer {
+  display: flex;
+  background-color: darkgray;
+  max-height: 400px;
+
+}
+
+.inner {
+  display: flex;
+  background-color: coral;
+  text-decoration: none;
+}
+
+.icons {}
