@@ -272,11 +272,11 @@ be positioned next to its class */
 
 
             li .fab {
-                color: black;
+                color: #001947;
                 font-size: 30px;
 
                 &:hover {
-                    color: #21FDF5;
+                    color: #9603DC;
                 }
             }
         }
@@ -357,5 +357,24 @@ be positioned next to its class */
 
     .hero .content {
         padding: 9em 20em 6em 20em;
+    }
+}
+
+
+//Animations 
+
+.circle {
+    animation: circleAnim 1s infinite alternate-reverse;
+}
+
+@keyframes circleAnim {
+    from {
+        transform: translate(354px, 831px);
+        z-index: 5;
+    }
+
+    to {
+        transform: translate(354px, 865px);
+
     }
 }

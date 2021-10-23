@@ -6,15 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gregg Cline Portfolio</title>
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="/CalculatorPJ/styles.css">
+    <script src="https://kit.fontawesome.com/d271537650.js" crossorigin="anonymous" defer></script>
+    <script src="CalculatorPJ/script.js" defer></script>
+
 </head>
 
 
 <body>
-
-
-
-
-
     <div class="nav-container">
         <header>
             <a href="index.html" class="logo">Gregg Cline</a>
@@ -62,8 +61,8 @@
                         <rect width="58" height="100" rx="29" stroke="none" />
                         <rect x="3.5" y="3.5" width="51" height="93" rx="25.5" fill="none" />
                     </g>
-                    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(354 831)" fill="#fff" stroke="#707070"
-                        stroke-width="1">
+                    <g class="circle" id=" Ellipse_4" data-name="Ellipse 4" transform="translate(354 831)" fill="#fff"
+                        stroke="#707070" stroke-width="1">
                         <ellipse cx="14.5" cy="13.5" rx="14.5" ry="13.5" stroke="none" />
                         <ellipse cx="14.5" cy="13.5" rx="14" ry="13" fill="none" />
                     </g>
@@ -154,14 +153,39 @@
                 <div class="inner">
                     <p class="subtitle">First project</p>
 
-                    <p class="featured-title">Ultimate Budget App </p>
+                    <p class="featured-title">Calculator Project </p>
                     <p class="featured-desc">
-                        This app makes budgeting easy and gives you the customization to fit your budget needs.
+                        Here's a fun calculator project to check out.
 
                     </p>
                 </div>
             </div>
-            <a href="#"><img src="/images/desertstars.jpg" alt="Gregg Cline Protfolio" /></a>
+            <div class="calculator-grid">
+                <div class="output">
+                    <div data-previous-operand class="previous-operand"></div>
+                    <div data-current-operand class="current-operand"></div>
+                </div>
+                <button data-all-clear class="span-two">AC</button>
+                <button data-delete>DEL</button>
+                <button data-operation>÷</button>
+                <button data-number>1</button>
+                <button data-number>2</button>
+                <button data-number>3</button>
+                <button data-operation>*</button>
+                <button data-number>4</button>
+                <button data-number>5</button>
+                <button data-number>6</button>
+                <button data-operation>+</button>
+                <button data-number>7</button>
+                <button data-number>8</button>
+                <button data-number>9</button>
+                <button data-operation>-</button>
+                <button data-number>.</button>
+                <button data-number>0</button>
+                <button data-equals class="span-two">=</button>
+            </div>
+            <!-- <a href="/CalculatorPJ/index.html" target="_blank"><img src="/images/desertstars.jpg"
+                    alt="Gregg Cline Protfolio" /></a> -->
         </div>
         <div class="portfolio-container transition3">
             <div class="portfolio-left">
@@ -192,7 +216,13 @@
     </section>
 
 
-    <script src="https://kit.fontawesome.com/d271537650.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+        integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
+        integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>

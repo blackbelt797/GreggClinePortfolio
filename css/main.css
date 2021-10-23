@@ -6360,11 +6360,11 @@ be positioned next to its class */
             justify-content: space-between;
   }
   .social-header ul li .fab {
-    color: black;
+    color: #001947;
     font-size: 30px;
   }
   .social-header ul li .fab:hover {
-    color: #21FDF5;
+    color: #9603DC;
   }
   .hero {
     display: -ms-grid;
@@ -6431,6 +6431,34 @@ be positioned next to its class */
   }
   .hero .content {
     padding: 9em 20em 6em 20em;
+  }
+}
+
+.circle {
+  animation: circleAnim 1s infinite alternate-reverse;
+}
+
+@-webkit-keyframes circleAnim {
+  from {
+    -webkit-transform: translate(354px, 831px);
+            transform: translate(354px, 831px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(354px, 865px);
+            transform: translate(354px, 865px);
+  }
+}
+
+@keyframes circleAnim {
+  from {
+    -webkit-transform: translate(354px, 831px);
+            transform: translate(354px, 831px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(354px, 865px);
+            transform: translate(354px, 865px);
   }
 }
 /*# sourceMappingURL=main.css.map */
